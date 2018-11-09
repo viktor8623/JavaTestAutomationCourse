@@ -1,0 +1,18 @@
+﻿Мой мир //a/span[text()='Мой Мир']
+
+Все проекты //a/i[text()="Все проекты"]
+
+Картинки //a[@data-name="pictures"]
+Значек лупы //label[@class='search__icon']
+Кнопка найти //input[@id='search:submit']
+Иконка календаря //span[@id='cal']
+Леди //a[@data-type="lady"]
+Многоточие //div[@id="tabs:dropdown-container"]/span
+Имя ящика //input[@id="mailbox:login"]
+Запомнить //label[@for="mailbox:saveauth"]
+ICQ //a[@data-alias="icq"]
+Спорт //div[@class="news-item__inner"]/a[text()="Спорт"]
+Рекламный блок //div[contains(@class, "news-item__link")]
+Агент //div[contains(@class, "well")]
+Курс //a[contains(@title, "Курс")]
+Включить ленту //a[text()="Включить ленту"]
