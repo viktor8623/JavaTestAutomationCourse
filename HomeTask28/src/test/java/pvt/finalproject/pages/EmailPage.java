@@ -10,11 +10,6 @@ import java.util.List;
 
 public class EmailPage extends Page {
 
-	public EmailPage(WebDriver driver) {
-        super(driver);
-        PageFactory.initElements(driver, this);
-    }
-
     @FindBy(xpath = "//div[@id='PH_authMenu']//i")
     public List<WebElement> currentInboxAddress;
 
@@ -73,6 +68,11 @@ public class EmailPage extends Page {
     @FindBy(xpath = "//a[@data-name='link' and not(ancestor::div[contains(@style, 'display: none;')])]//div[contains" +
             "(@class, 'b-flag_yes')]//b")
     public List<WebElement> flags;
+
+    public EmailPage(WebDriver driver) {
+        super(driver);
+        PageFactory.initElements(driver, this);
+    }
 
     public void waitForNotification() {
         fluentWait.until(driver -> notification.getText().length() > 0);
