@@ -7,11 +7,6 @@ import org.openqa.selenium.support.PageFactory;
 
 public class MainPage extends Page {
 
-	public MainPage(WebDriver driver) {
-        super(driver);
-        PageFactory.initElements(driver, this);
-    }
-
     @FindBy(xpath = "//input[@id='mailbox:login']")
     public WebElement emailInput;
 
@@ -23,6 +18,11 @@ public class MainPage extends Page {
 
     @FindBy(xpath = "//input[@value='Войти']")
     public WebElement logInButton;
+
+    public MainPage(WebDriver driver) {
+        super(driver);
+        PageFactory.initElements(driver, this);
+    }
 
     public void open(String url) {
         driver.get(url);
