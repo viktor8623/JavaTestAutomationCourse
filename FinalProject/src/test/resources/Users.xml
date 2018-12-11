@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Users>
+    <User id = "1">
+        <Name>Viktor</Name>
+        <LastName>Yenjchak</LastName>
+        <Nickname>VY</Nickname>
+        <Birthday>07 07 1986</Birthday>
+    </User>
+    <User id = "2">
+        <Name>Nick</Name>
+        <LastName>Smith</LastName>
+        <Nickname>NS</Nickname>
+        <Birthday>20 10 2000</Birthday>
+    </User>
+</Users>
