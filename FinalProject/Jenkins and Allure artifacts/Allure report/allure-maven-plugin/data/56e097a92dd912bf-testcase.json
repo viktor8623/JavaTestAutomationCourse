@@ -1,0 +1,146 @@
+{
+  "uid" : "56e097a92dd912bf",
+  "name" : "Moving email from Trash folder to Inbox",
+  "title" : "Moving email from Trash folder to Inbox",
+  "time" : {
+    "start" : 1544684355548,
+    "stop" : 1544684357296,
+    "duration" : 1748
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 6
+  },
+  "failure" : null,
+  "description" : {
+    "value" : null,
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "80f31cdfae25a277",
+    "name" : "Actions with emails: movement and deleting",
+    "title" : "Actions with emails: movement and deleting"
+  },
+  "steps" : [ {
+    "name" : "Given I am in Inbox folder",
+    "title" : "Given I am in Inbox folder",
+    "time" : {
+      "start" : 1544684355555,
+      "stop" : 1544684355558,
+      "duration" : 3
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "When Go to Trash folder",
+    "title" : "When Go to Trash folder",
+    "time" : {
+      "start" : 1544684355558,
+      "stop" : 1544684355706,
+      "duration" : 148
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "And I have remembered the subject of the first email",
+    "title" : "And I have remembered the subject of the first email",
+    "time" : {
+      "start" : 1544684355706,
+      "stop" : 1544684355774,
+      "duration" : 68
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "And I move the first email from Inbox from Trash",
+    "title" : "And I move the first email from Inbox from Trash",
+    "time" : {
+      "start" : 1544684355774,
+      "stop" : 1544684356689,
+      "duration" : 915
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "And Go to Inbox folder",
+    "title" : "And Go to Inbox folder",
+    "time" : {
+      "start" : 1544684356689,
+      "stop" : 1544684356768,
+      "duration" : 79
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Then The email with the same subject is in the folder",
+    "title" : "Then The email with the same subject is in the folder",
+    "time" : {
+      "start" : 1544684356768,
+      "stop" : 1544684357296,
+      "duration" : 528
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "story",
+    "value" : "Moving email from Trash folder to Inbox"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-1GGGQVI"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "feature",
+    "value" : "Actions with emails: movement and deleting"
+  }, {
+    "name" : "suite-name",
+    "value" : "Actions with emails: movement and deleting"
+  }, {
+    "name" : "thread",
+    "value" : "11152@DESKTOP-1GGGQVI.main(1)"
+  } ],
+  "parameters" : [ ]
+}

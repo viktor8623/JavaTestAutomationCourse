@@ -1,0 +1,106 @@
+{
+  "hash" : "e7105c43ada45c9f6e0006854ef1a1d95249231d",
+  "plugins" : {
+    "total" : {
+      "statistic" : {
+        "total" : 10,
+        "passed" : 8,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 1,
+        "broken" : 1
+      },
+      "time" : {
+        "start" : 1544683767197,
+        "stop" : 1544683815898,
+        "duration" : 48701
+      }
+    },
+    "defects" : {
+      "totalCount" : 2,
+      "items" : [ {
+        "count" : 1,
+        "uid" : "141fdc84bdfba6e0",
+        "message" : "AssertionError: expected [4] but found [3]",
+        "status" : "FAILED"
+      }, {
+        "count" : 1,
+        "uid" : "ab06f5f067ddedcf",
+        "message" : "TimeoutException: Expected condition failed: waiting for element ([[ChromeDriver: chrome on XP (47eb54e21e2a25f5a2198bebcc374b28)] -> xpath: //a[@data-name='link' and not(ancestor::div[contains(@style, 'display: none;')])]]) to become stale (tried for 15 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-1GGGQVI', ip: '192.168.100.73', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.44.609538 (b655c5a60b0b54..., userDataDir: C:\\Users\\Viktor\\AppData\\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:56866}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 71.0.3578.98, webStorageEnabled: true}\nSession ID: 47eb54e21e2a25f5a2198bebcc374b28",
+        "status" : "BROKEN"
+      } ]
+    },
+    "xunit" : {
+      "totalCount" : 3,
+      "items" : [ {
+        "uid" : "b39d938bf48a0729",
+        "title" : "Actions with emails: movement and deleting",
+        "statistic" : {
+          "total" : 6,
+          "passed" : 5,
+          "pending" : 0,
+          "canceled" : 0,
+          "failed" : 0,
+          "broken" : 1
+        }
+      }, {
+        "uid" : "cba304748b10b12e",
+        "title" : "Marking emails",
+        "statistic" : {
+          "total" : 2,
+          "passed" : 1,
+          "pending" : 0,
+          "canceled" : 0,
+          "failed" : 1,
+          "broken" : 0
+        }
+      }, {
+        "uid" : "465e53be136af432",
+        "title" : "Sending emails",
+        "statistic" : {
+          "total" : 2,
+          "passed" : 2,
+          "pending" : 0,
+          "canceled" : 0,
+          "failed" : 0,
+          "broken" : 0
+        }
+      } ]
+    },
+    "behaviors" : {
+      "totalCount" : 3,
+      "items" : [ {
+        "title" : "Actions with emails: movement and deleting",
+        "statistic" : {
+          "total" : 6,
+          "passed" : 5,
+          "pending" : 0,
+          "canceled" : 0,
+          "failed" : 0,
+          "broken" : 1
+        }
+      }, {
+        "title" : "Marking emails",
+        "statistic" : {
+          "total" : 2,
+          "passed" : 1,
+          "pending" : 0,
+          "canceled" : 0,
+          "failed" : 1,
+          "broken" : 0
+        }
+      }, {
+        "title" : "Sending emails",
+        "statistic" : {
+          "total" : 2,
+          "passed" : 2,
+          "pending" : 0,
+          "canceled" : 0,
+          "failed" : 0,
+          "broken" : 0
+        }
+      } ]
+    },
+    "environment" : [ ]
+  }
+}

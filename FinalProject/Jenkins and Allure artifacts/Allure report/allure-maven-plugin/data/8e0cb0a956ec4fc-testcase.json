@@ -1,0 +1,116 @@
+{
+  "uid" : "8e0cb0a956ec4fc",
+  "name" : "Deleting all emails in Trash folder",
+  "title" : "Deleting all emails in Trash folder",
+  "time" : {
+    "start" : 1544684359634,
+    "stop" : 1544684366352,
+    "duration" : 6718
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 4
+  },
+  "failure" : null,
+  "description" : {
+    "value" : null,
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "80f31cdfae25a277",
+    "name" : "Actions with emails: movement and deleting",
+    "title" : "Actions with emails: movement and deleting"
+  },
+  "steps" : [ {
+    "name" : "Given I am in Inbox folder",
+    "title" : "Given I am in Inbox folder",
+    "time" : {
+      "start" : 1544684359640,
+      "stop" : 1544684359788,
+      "duration" : 148
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "When I click Clear Trash folder link",
+    "title" : "When I click Clear Trash folder link",
+    "time" : {
+      "start" : 1544684359789,
+      "stop" : 1544684361059,
+      "duration" : 1270
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "And Go to Trash folder",
+    "title" : "And Go to Trash folder",
+    "time" : {
+      "start" : 1544684361059,
+      "stop" : 1544684361144,
+      "duration" : 85
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Then The folder is empty",
+    "title" : "Then The folder is empty",
+    "time" : {
+      "start" : 1544684361144,
+      "stop" : 1544684366352,
+      "duration" : 5208
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-1GGGQVI"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "story",
+    "value" : "Deleting all emails in Trash folder"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "feature",
+    "value" : "Actions with emails: movement and deleting"
+  }, {
+    "name" : "suite-name",
+    "value" : "Actions with emails: movement and deleting"
+  }, {
+    "name" : "thread",
+    "value" : "11152@DESKTOP-1GGGQVI.main(1)"
+  } ],
+  "parameters" : [ ]
+}

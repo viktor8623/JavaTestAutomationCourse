@@ -1,0 +1,116 @@
+{
+  "uid" : "b394dda301d47529",
+  "name" : "Sending email to a single recipient",
+  "title" : "Sending email to a single recipient",
+  "time" : {
+    "start" : 1544684373832,
+    "stop" : 1544684376505,
+    "duration" : 2673
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 4
+  },
+  "failure" : null,
+  "description" : {
+    "value" : null,
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "b55e2a8a73655992",
+    "name" : "Sending emails",
+    "title" : "Sending emails"
+  },
+  "steps" : [ {
+    "name" : "Given I am in Inbox folder",
+    "title" : "Given I am in Inbox folder",
+    "time" : {
+      "start" : 1544684373842,
+      "stop" : 1544684373846,
+      "duration" : 4
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "When I send new email with \"test@mailinator.com\", \"Message to friend\", \"Just some text...\"",
+    "title" : "When I send new email with \"test@mailinator.com\", \"Message to friend\", \"Just some text...\"",
+    "time" : {
+      "start" : 1544684373846,
+      "stop" : 1544684376051,
+      "duration" : 2205
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "And Go to Sent folder",
+    "title" : "And Go to Sent folder",
+    "time" : {
+      "start" : 1544684376051,
+      "stop" : 1544684376346,
+      "duration" : 295
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Then The email with \"Message to friend\" is in the first row",
+    "title" : "Then The email with \"Message to friend\" is in the first row",
+    "time" : {
+      "start" : 1544684376346,
+      "stop" : 1544684376505,
+      "duration" : 159
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "story",
+    "value" : "Sending email to a single recipient"
+  }, {
+    "name" : "suite-name",
+    "value" : "Sending emails"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-1GGGQVI"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "feature",
+    "value" : "Sending emails"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "thread",
+    "value" : "11152@DESKTOP-1GGGQVI.main(1)"
+  } ],
+  "parameters" : [ ]
+}

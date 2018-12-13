@@ -1,0 +1,266 @@
+{
+  "features" : [ {
+    "title" : "Marking emails",
+    "statistic" : {
+      "total" : 2,
+      "passed" : 2,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "stories" : [ {
+      "uid" : "182152955bcdbbe1",
+      "title" : "Marking first three emails with a flag",
+      "statistic" : {
+        "total" : 1,
+        "passed" : 1,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 0
+      },
+      "testCases" : [ {
+        "uid" : "aa93898d1f1d67cf",
+        "name" : "Marking first three emails with a flag",
+        "title" : "Marking first three emails with a flag",
+        "time" : {
+          "start" : 1544684366527,
+          "stop" : 1544684367690,
+          "duration" : 1163
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    }, {
+      "uid" : "5620bd6bcdb5af89",
+      "title" : "Marking first three emails with as unread",
+      "statistic" : {
+        "total" : 1,
+        "passed" : 1,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 0
+      },
+      "testCases" : [ {
+        "uid" : "6b1b194e8d49aefd",
+        "name" : "Marking first three emails with as unread",
+        "title" : "Marking first three emails with as unread",
+        "time" : {
+          "start" : 1544684367691,
+          "stop" : 1544684373801,
+          "duration" : 6110
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    } ]
+  }, {
+    "title" : "Sending emails",
+    "statistic" : {
+      "total" : 2,
+      "passed" : 2,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "stories" : [ {
+      "uid" : "f43cdd0f9fc60886",
+      "title" : "Sending email to a single recipient",
+      "statistic" : {
+        "total" : 1,
+        "passed" : 1,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 0
+      },
+      "testCases" : [ {
+        "uid" : "b394dda301d47529",
+        "name" : "Sending email to a single recipient",
+        "title" : "Sending email to a single recipient",
+        "time" : {
+          "start" : 1544684373832,
+          "stop" : 1544684376505,
+          "duration" : 2673
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    }, {
+      "uid" : "85705eb64747e521",
+      "title" : "Sending email to multiple receivers",
+      "statistic" : {
+        "total" : 1,
+        "passed" : 1,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 0
+      },
+      "testCases" : [ {
+        "uid" : "8edb336814b1b88",
+        "name" : "Sending email to multiple receivers",
+        "title" : "Sending email to multiple receivers",
+        "time" : {
+          "start" : 1544684376505,
+          "stop" : 1544684378922,
+          "duration" : 2417
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    } ]
+  }, {
+    "title" : "Actions with emails: movement and deleting",
+    "statistic" : {
+      "total" : 6,
+      "passed" : 6,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "stories" : [ {
+      "uid" : "54d57f017c1475f1",
+      "title" : "Moving email to Spam folder",
+      "statistic" : {
+        "total" : 1,
+        "passed" : 1,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 0
+      },
+      "testCases" : [ {
+        "uid" : "31978ed7aff5a56a",
+        "name" : "Moving email to Spam folder",
+        "title" : "Moving email to Spam folder",
+        "time" : {
+          "start" : 1544684338559,
+          "stop" : 1544684351228,
+          "duration" : 12669
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    }, {
+      "uid" : "12b4f5d94cc2e1bc",
+      "title" : "Moving email to Trash folder",
+      "statistic" : {
+        "total" : 1,
+        "passed" : 1,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 0
+      },
+      "testCases" : [ {
+        "uid" : "a9a717a9ce5d4e86",
+        "name" : "Moving email to Trash folder",
+        "title" : "Moving email to Trash folder",
+        "time" : {
+          "start" : 1544684351247,
+          "stop" : 1544684353220,
+          "duration" : 1973
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    }, {
+      "uid" : "5dd0dbe4bdb0b2da",
+      "title" : "Marking email in Spam folder as NOT Spam",
+      "statistic" : {
+        "total" : 1,
+        "passed" : 1,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 0
+      },
+      "testCases" : [ {
+        "uid" : "69cbdf7ced8bc92e",
+        "name" : "Marking email in Spam folder as NOT Spam",
+        "title" : "Marking email in Spam folder as NOT Spam",
+        "time" : {
+          "start" : 1544684353220,
+          "stop" : 1544684355547,
+          "duration" : 2327
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    }, {
+      "uid" : "d172d7f154c4559",
+      "title" : "Moving email from Trash folder to Inbox",
+      "statistic" : {
+        "total" : 1,
+        "passed" : 1,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 0
+      },
+      "testCases" : [ {
+        "uid" : "56e097a92dd912bf",
+        "name" : "Moving email from Trash folder to Inbox",
+        "title" : "Moving email from Trash folder to Inbox",
+        "time" : {
+          "start" : 1544684355548,
+          "stop" : 1544684357296,
+          "duration" : 1748
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    }, {
+      "uid" : "8d709839f34dbea8",
+      "title" : "Moving email from Sent folder to Trash",
+      "statistic" : {
+        "total" : 1,
+        "passed" : 1,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 0
+      },
+      "testCases" : [ {
+        "uid" : "b9f72cb2ac3060bc",
+        "name" : "Moving email from Sent folder to Trash",
+        "title" : "Moving email from Sent folder to Trash",
+        "time" : {
+          "start" : 1544684357297,
+          "stop" : 1544684359633,
+          "duration" : 2336
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    }, {
+      "uid" : "f2d8530802420f6",
+      "title" : "Deleting all emails in Trash folder",
+      "statistic" : {
+        "total" : 1,
+        "passed" : 1,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 0
+      },
+      "testCases" : [ {
+        "uid" : "8e0cb0a956ec4fc",
+        "name" : "Deleting all emails in Trash folder",
+        "title" : "Deleting all emails in Trash folder",
+        "time" : {
+          "start" : 1544684359634,
+          "stop" : 1544684366352,
+          "duration" : 6718
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    } ]
+  } ]
+}

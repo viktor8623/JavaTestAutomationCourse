@@ -1,0 +1,86 @@
+{
+  "uid" : "245a54c0bdb2fad",
+  "name" : "Sending email to multiple receivers",
+  "title" : "Sending email to multiple receivers",
+  "time" : {
+    "start" : 1544683813421,
+    "stop" : 1544683815898,
+    "duration" : 2477
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 2
+  },
+  "failure" : null,
+  "description" : {
+    "value" : null,
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "465e53be136af432",
+    "name" : "Sending emails",
+    "title" : "Sending emails"
+  },
+  "steps" : [ {
+    "name" : "Given I am in Inbox folder",
+    "title" : "Given I am in Inbox folder",
+    "time" : {
+      "start" : 1544683813433,
+      "stop" : 1544683813607,
+      "duration" : 174
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Then I send new email from data base to multiple receivers",
+    "title" : "Then I send new email from data base to multiple receivers",
+    "time" : {
+      "start" : 1544683813608,
+      "stop" : 1544683815897,
+      "duration" : 2289
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "suite-name",
+    "value" : "Sending emails"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-1GGGQVI"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "feature",
+    "value" : "Sending emails"
+  }, {
+    "name" : "story",
+    "value" : "Sending email to multiple receivers"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "thread",
+    "value" : "11700@DESKTOP-1GGGQVI.main(1)"
+  } ],
+  "parameters" : [ ]
+}

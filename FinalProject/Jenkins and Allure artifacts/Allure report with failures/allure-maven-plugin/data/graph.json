@@ -1,0 +1,113 @@
+{
+  "testCases" : [ {
+    "uid" : "efec5649a542c4c8",
+    "name" : "Marking first three emails with a flag",
+    "title" : "Marking first three emails with a flag",
+    "time" : {
+      "start" : 1544683808285,
+      "stop" : 1544683809428,
+      "duration" : 1143
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "877c38fbfa82a5c",
+    "name" : "Marking first three emails with as unread",
+    "title" : "Marking first three emails with as unread",
+    "time" : {
+      "start" : 1544683809428,
+      "stop" : 1544683810827,
+      "duration" : 1399
+    },
+    "severity" : "NORMAL",
+    "status" : "FAILED"
+  }, {
+    "uid" : "1d1023a8bcd5f56",
+    "name" : "Sending email to a single recipient",
+    "title" : "Sending email to a single recipient",
+    "time" : {
+      "start" : 1544683810852,
+      "stop" : 1544683813420,
+      "duration" : 2568
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "245a54c0bdb2fad",
+    "name" : "Sending email to multiple receivers",
+    "title" : "Sending email to multiple receivers",
+    "time" : {
+      "start" : 1544683813421,
+      "stop" : 1544683815898,
+      "duration" : 2477
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "37c9723a047765b6",
+    "name" : "Moving email to Spam folder",
+    "title" : "Moving email to Spam folder",
+    "time" : {
+      "start" : 1544683767197,
+      "stop" : 1544683779357,
+      "duration" : 12160
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "e24c3c3a2d2863dc",
+    "name" : "Moving email to Trash folder",
+    "title" : "Moving email to Trash folder",
+    "time" : {
+      "start" : 1544683779374,
+      "stop" : 1544683781369,
+      "duration" : 1995
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "3164ded1f1efc39f",
+    "name" : "Marking email in Spam folder as NOT Spam",
+    "title" : "Marking email in Spam folder as NOT Spam",
+    "time" : {
+      "start" : 1544683781370,
+      "stop" : 1544683783561,
+      "duration" : 2191
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "9f546b84a054b215",
+    "name" : "Moving email from Trash folder to Inbox",
+    "title" : "Moving email from Trash folder to Inbox",
+    "time" : {
+      "start" : 1544683783562,
+      "stop" : 1544683785234,
+      "duration" : 1672
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "c4d9f440d1532544",
+    "name" : "Moving email from Sent folder to Trash",
+    "title" : "Moving email from Sent folder to Trash",
+    "time" : {
+      "start" : 1544683785235,
+      "stop" : 1544683801299,
+      "duration" : 16064
+    },
+    "severity" : "NORMAL",
+    "status" : "BROKEN"
+  }, {
+    "uid" : "8d0ca89511e837ba",
+    "name" : "Deleting all emails in Trash folder",
+    "title" : "Deleting all emails in Trash folder",
+    "time" : {
+      "start" : 1544683801300,
+      "stop" : 1544683808167,
+      "duration" : 6867
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  } ]
+}

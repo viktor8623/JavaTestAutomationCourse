@@ -1,0 +1,116 @@
+{
+  "uid" : "aa93898d1f1d67cf",
+  "name" : "Marking first three emails with a flag",
+  "title" : "Marking first three emails with a flag",
+  "time" : {
+    "start" : 1544684366527,
+    "stop" : 1544684367690,
+    "duration" : 1163
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 4
+  },
+  "failure" : null,
+  "description" : {
+    "value" : null,
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "c83fdb61afdbc260",
+    "name" : "Marking emails",
+    "title" : "Marking emails"
+  },
+  "steps" : [ {
+    "name" : "Given I am in Inbox folder",
+    "title" : "Given I am in Inbox folder",
+    "time" : {
+      "start" : 1544684366536,
+      "stop" : 1544684366694,
+      "duration" : 158
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "When I mark first \"3\" emails with a flag",
+    "title" : "When I mark first \"3\" emails with a flag",
+    "time" : {
+      "start" : 1544684366695,
+      "stop" : 1544684367131,
+      "duration" : 436
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "And Remove all flags",
+    "title" : "And Remove all flags",
+    "time" : {
+      "start" : 1544684367132,
+      "stop" : 1544684367513,
+      "duration" : 381
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Then There are no emails marked with a flag",
+    "title" : "Then There are no emails marked with a flag",
+    "time" : {
+      "start" : 1544684367513,
+      "stop" : 1544684367690,
+      "duration" : 177
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "suite-name",
+    "value" : "Marking emails"
+  }, {
+    "name" : "story",
+    "value" : "Marking first three emails with a flag"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-1GGGQVI"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "feature",
+    "value" : "Marking emails"
+  }, {
+    "name" : "thread",
+    "value" : "11152@DESKTOP-1GGGQVI.main(1)"
+  } ],
+  "parameters" : [ ]
+}
