@@ -1,6 +1,5 @@
 package pvt.finalproject.appmanager;
 
-import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -8,9 +7,8 @@ import org.openqa.selenium.WebDriverException;
 import pvt.finalproject.actions.Emails;
 import pvt.finalproject.actions.Session;
 import pvt.finalproject.parsermanager.ParserManager;
+import ru.yandex.qatools.allure.annotations.Attachment;
 
-import java.io.File;
-import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
 
@@ -21,13 +19,12 @@ public class ApplicationManager {
     public Emails emails;
     public Dbhelper db;
     public ParserManager xmlParser;
-    private final static String SCREENSHOTS_PATH = "./target/screenshots/";
 
     private ApplicationManager(DriverType type) {
         db = new Dbhelper();
         driver = DriverFactory.getDriver(type);
         driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         driver.manage().timeouts().pageLoadTimeout(60, TimeUnit.SECONDS);
         session = new Session(driver, db);
         emails = new Emails(driver);
@@ -50,15 +47,11 @@ public class ApplicationManager {
         }
     }
 
-    public void makeScreenshot() {
-        try {
-            File source = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-            FileUtils.copyFile(source, new File(SCREENSHOTS_PATH + source.getName()));
-        } catch (IOException e) {
-            System.out.println("Cannot make screenshot...");
-        }
+    @Attachment(value = "Attachment: Screenshot of failure", type = "image/png")
+    public byte[] takeScreenshot()
+    {
+        return ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
     }
-
 
     public void quit() {
         session.logOut();

@@ -60,8 +60,9 @@ public class Emails {
         emailPage.waitForElementDisappearance(message);
     }
 
-    public String getMessagesSubject(int indexNumber) {
-        WebElement message = emailPage.messages.get(indexNumber);
+    public String getMessagesSubject(int index) {
+        WebElement message = emailPage.messages.get(index);
+        emailPage.waitForMessagesDisplayed();
         return emailPage.getSubject(message).getText();
     }
 
@@ -196,7 +197,9 @@ public class Emails {
     public void markEmailsUnread(int quantity) {
         List<WebElement> messages = emailPage.messages;
         for(int i = 0; i < quantity; i++) {
+            boolean actualState = emailPage.isRead(messages.get(i));
             emailPage.getStatusMark(messages.get(i)).click();
+            emailPage.waitForCangeReadStateTo(!actualState, messages.get(i));
         }
     }
 

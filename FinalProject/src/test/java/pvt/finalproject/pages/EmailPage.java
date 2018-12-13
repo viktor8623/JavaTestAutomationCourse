@@ -115,12 +115,17 @@ public class EmailPage extends Page {
     }
 
     public WebElement getFlag(WebElement message) {
-        return message.findElement(By.xpath(".//div[contains(@class, 'b-letterstatus__icon')]"));
+        return message.findElement(By.xpath(".//div[contains(@class, 'b-flag')]"));
     }
 
     public boolean isFlagged(WebElement flag) {
         String classes = flag.getAttribute("class");
         return classes.contains("b-flag_yes");
+    }
+
+    public boolean isRead(WebElement message) {
+        String classes = getStatusMark(message).getAttribute("class");
+        return classes.contains("ico_letterstatus_read");
     }
 
     public void smartClick(WebElement element) {
@@ -135,11 +140,15 @@ public class EmailPage extends Page {
     }
 
     public void waitForMessagesDisplayed() {
-        fluentWait.until(driver -> messages.get(0).getText().length() > 0);
+        fluentWait.until(driver -> getSubject(messages.get(0)).getText().length() > 0);
     }
 
     public void waitForElementDisappearance(WebElement element) {
         wait.until(ExpectedConditions.stalenessOf(element));
+    }
+
+    public void waitForCangeReadStateTo(boolean desiredState, WebElement message) {
+        fluentWait.until(driver1 -> isRead(message) == desiredState);
     }
 
     public void enterMessage(String message) {

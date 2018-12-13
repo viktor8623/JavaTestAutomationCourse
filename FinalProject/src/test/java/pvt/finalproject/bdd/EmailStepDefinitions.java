@@ -1,7 +1,7 @@
 package pvt.finalproject.bdd;
 
 import cucumber.api.Scenario;
-import cucumber.api.java.AfterStep;
+import cucumber.api.java.After;
 import cucumber.api.java.Before;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
@@ -33,9 +33,11 @@ public class EmailStepDefinitions {
                 new Thread(() -> { app.quit(); app = null; }));
     }
 
-    @AfterStep
-    public void makeScreenshot(Scenario scenario){
-        app.makeScreenshot();
+    @After
+    public void takeScreenshotIfFails(Scenario scenario) {
+        if (scenario.isFailed()) {
+         app.takeScreenshot();
+        }
     }
 
     @And("^Go to Inbox folder$")
