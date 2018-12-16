@@ -1,0 +1,155 @@
+{
+  "uid" : "c4d9f440d1532544",
+  "name" : "Moving email from Sent folder to Trash",
+  "title" : "Moving email from Sent folder to Trash",
+  "time" : {
+    "start" : 1544683785235,
+    "stop" : 1544683801299,
+    "duration" : 16064
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 6
+  },
+  "failure" : {
+    "message" : "TimeoutException: Expected condition failed: waiting for element ([[ChromeDriver: chrome on XP (47eb54e21e2a25f5a2198bebcc374b28)] -> xpath: //a[@data-name='link' and not(ancestor::div[contains(@style, 'display: none;')])]]) to become stale (tried for 15 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-1GGGQVI', ip: '192.168.100.73', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.44.609538 (b655c5a60b0b54..., userDataDir: C:\\Users\\Viktor\\AppData\\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:56866}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 71.0.3578.98, webStorageEnabled: true}\nSession ID: 47eb54e21e2a25f5a2198bebcc374b28",
+    "stackTrace" : "org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element ([[ChromeDriver: chrome on XP (47eb54e21e2a25f5a2198bebcc374b28)] -> xpath: //a[@data-name='link' and not(ancestor::div[contains(@style, 'display: none;')])]]) to become stale (tried for 15 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-1GGGQVI', ip: '192.168.100.73', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.44.609538 (b655c5a60b0b54..., userDataDir: C:\\Users\\Viktor\\AppData\\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:56866}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 71.0.3578.98, webStorageEnabled: true}\nSession ID: 47eb54e21e2a25f5a2198bebcc374b28\n\tat org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)\n\tat pvt.finalproject.pages.EmailPage.waitForElementDisappearance(EmailPage.java:148)\n\tat pvt.finalproject.actions.Emails.moveMessageToTrash(Emails.java:52)\n\tat pvt.finalproject.bdd.EmailStepDefinitions.deleteFirstMessage(EmailStepDefinitions.java:71)\n\tat ✽.And I delete the first email(bdd/emails.feature:38)\n"
+  },
+  "description" : {
+    "value" : null,
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "BROKEN",
+  "suite" : {
+    "uid" : "b39d938bf48a0729",
+    "name" : "Actions with emails: movement and deleting",
+    "title" : "Actions with emails: movement and deleting"
+  },
+  "steps" : [ {
+    "name" : "Given I am in Inbox folder",
+    "title" : "Given I am in Inbox folder",
+    "time" : {
+      "start" : 1544683785241,
+      "stop" : 1544683785244,
+      "duration" : 3
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "When Go to Sent folder",
+    "title" : "When Go to Sent folder",
+    "time" : {
+      "start" : 1544683785244,
+      "stop" : 1544683785322,
+      "duration" : 78
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "And I have remembered the subject of the first email",
+    "title" : "And I have remembered the subject of the first email",
+    "time" : {
+      "start" : 1544683785322,
+      "stop" : 1544683785380,
+      "duration" : 58
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "And I delete the first email",
+    "title" : "And I delete the first email",
+    "time" : {
+      "start" : 1544683785380,
+      "stop" : 1544683800773,
+      "duration" : 15393
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "BROKEN",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "And Go to Trash folder",
+    "title" : "And Go to Trash folder",
+    "time" : {
+      "start" : 1544683800774,
+      "stop" : 1544683800776,
+      "duration" : 2
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "CANCELED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Then The email with the same subject is in the folder",
+    "title" : "Then The email with the same subject is in the folder",
+    "time" : {
+      "start" : 1544683800776,
+      "stop" : 1544683800776,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "CANCELED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ {
+    "title" : "Attachment: Screenshot of failure",
+    "source" : "5fac8b53-a74c-43e4-95b6-62bd3d20e1f9-attachment.png",
+    "type" : "image/png",
+    "size" : 406747,
+    "uid" : "4cea3705ec79e6a1"
+  } ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-1GGGQVI"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "story",
+    "value" : "Moving email from Sent folder to Trash"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "feature",
+    "value" : "Actions with emails: movement and deleting"
+  }, {
+    "name" : "suite-name",
+    "value" : "Actions with emails: movement and deleting"
+  }, {
+    "name" : "thread",
+    "value" : "11700@DESKTOP-1GGGQVI.main(1)"
+  } ],
+  "parameters" : [ ]
+}

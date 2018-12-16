@@ -1,0 +1,140 @@
+{
+  "uid" : "877c38fbfa82a5c",
+  "name" : "Marking first three emails with as unread",
+  "title" : "Marking first three emails with as unread",
+  "time" : {
+    "start" : 1544683809428,
+    "stop" : 1544683810827,
+    "duration" : 1399
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 5
+  },
+  "failure" : {
+    "message" : "AssertionError: expected [4] but found [3]",
+    "stackTrace" : "java.lang.AssertionError: expected [4] but found [3]\n\tat org.testng.Assert.fail(Assert.java:94)\n\tat org.testng.Assert.failNotEquals(Assert.java:513)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:135)\n\tat org.testng.Assert.assertEquals(Assert.java:116)\n\tat org.testng.Assert.assertEquals(Assert.java:389)\n\tat org.testng.Assert.assertEquals(Assert.java:399)\n\tat pvt.finalproject.bdd.EmailStepDefinitions.verifyCounterUnreadEmails(EmailStepDefinitions.java:172)\n\tat ✽.Then I see that counter of unread emails in nav bar has value \"4\"(bdd/markingEmails.feature:12)\n"
+  },
+  "description" : {
+    "value" : null,
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "FAILED",
+  "suite" : {
+    "uid" : "cba304748b10b12e",
+    "name" : "Marking emails",
+    "title" : "Marking emails"
+  },
+  "steps" : [ {
+    "name" : "Given I am in Inbox folder",
+    "title" : "Given I am in Inbox folder",
+    "time" : {
+      "start" : 1544683809434,
+      "stop" : 1544683809438,
+      "duration" : 4
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "When I mark first \"3\" emails as unread",
+    "title" : "When I mark first \"3\" emails as unread",
+    "time" : {
+      "start" : 1544683809438,
+      "stop" : 1544683810017,
+      "duration" : 579
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Then I see that counter of unread emails in nav bar has value \"4\"",
+    "title" : "Then I see that counter of unread emails in nav bar has value \"4\"",
+    "time" : {
+      "start" : 1544683810017,
+      "stop" : 1544683810057,
+      "duration" : 40
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "FAILED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "And I remove unread marks from first \"3\" emails",
+    "title" : "And I remove unread marks from first \"3\" emails",
+    "time" : {
+      "start" : 1544683810057,
+      "stop" : 1544683810057,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "CANCELED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "And I see that counter unread emails is not displayed",
+    "title" : "And I see that counter unread emails is not displayed",
+    "time" : {
+      "start" : 1544683810057,
+      "stop" : 1544683810057,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "CANCELED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ {
+    "title" : "Attachment: Screenshot of failure",
+    "source" : "91b0b51f-b6e7-4ca4-9af2-b34cc250ff20-attachment.png",
+    "type" : "image/png",
+    "size" : 1065038,
+    "uid" : "38b93e05b5161993"
+  } ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Marking first three emails with as unread"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "suite-name",
+    "value" : "Marking emails"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-1GGGQVI"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "feature",
+    "value" : "Marking emails"
+  }, {
+    "name" : "thread",
+    "value" : "11700@DESKTOP-1GGGQVI.main(1)"
+  } ],
+  "parameters" : [ ]
+}

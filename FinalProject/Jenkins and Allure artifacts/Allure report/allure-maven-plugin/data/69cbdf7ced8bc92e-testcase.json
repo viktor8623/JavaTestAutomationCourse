@@ -1,0 +1,161 @@
+{
+  "uid" : "69cbdf7ced8bc92e",
+  "name" : "Marking email in Spam folder as NOT Spam",
+  "title" : "Marking email in Spam folder as NOT Spam",
+  "time" : {
+    "start" : 1544684353220,
+    "stop" : 1544684355547,
+    "duration" : 2327
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 7
+  },
+  "failure" : null,
+  "description" : {
+    "value" : null,
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "80f31cdfae25a277",
+    "name" : "Actions with emails: movement and deleting",
+    "title" : "Actions with emails: movement and deleting"
+  },
+  "steps" : [ {
+    "name" : "Given I am in Inbox folder",
+    "title" : "Given I am in Inbox folder",
+    "time" : {
+      "start" : 1544684353229,
+      "stop" : 1544684353381,
+      "duration" : 152
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "When Go to Spam folder",
+    "title" : "When Go to Spam folder",
+    "time" : {
+      "start" : 1544684353381,
+      "stop" : 1544684353506,
+      "duration" : 125
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "And I have remembered the subject of the first email",
+    "title" : "And I have remembered the subject of the first email",
+    "time" : {
+      "start" : 1544684353506,
+      "stop" : 1544684353585,
+      "duration" : 79
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "And I mark first email as NOT Spam",
+    "title" : "And I mark first email as NOT Spam",
+    "time" : {
+      "start" : 1544684353585,
+      "stop" : 1544684354433,
+      "duration" : 848
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Then The email with the same subject is not in the folder",
+    "title" : "Then The email with the same subject is not in the folder",
+    "time" : {
+      "start" : 1544684354433,
+      "stop" : 1544684354573,
+      "duration" : 140
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "And Go to Inbox folder",
+    "title" : "And Go to Inbox folder",
+    "time" : {
+      "start" : 1544684354573,
+      "stop" : 1544684354675,
+      "duration" : 102
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "And The email with the same subject is in the folder",
+    "title" : "And The email with the same subject is in the folder",
+    "time" : {
+      "start" : 1544684354675,
+      "stop" : 1544684355547,
+      "duration" : 872
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-1GGGQVI"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "story",
+    "value" : "Marking email in Spam folder as NOT Spam"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "feature",
+    "value" : "Actions with emails: movement and deleting"
+  }, {
+    "name" : "suite-name",
+    "value" : "Actions with emails: movement and deleting"
+  }, {
+    "name" : "thread",
+    "value" : "11152@DESKTOP-1GGGQVI.main(1)"
+  } ],
+  "parameters" : [ ]
+}
